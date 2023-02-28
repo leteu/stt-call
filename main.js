@@ -71,7 +71,7 @@ recognition.onresult = (event) => {
   })
 
   document.getElementById('select-user').innerHTML = `<ul>${Array.from(selected).reduce((acc, cur) => acc + `<li>${cur.id} | ${cur.account} | ${cur.name}</li>`, '')}</ul>`
-  document.getElementById('select-user').innerText = selected.size
+  document.getElementById('select-cnt').innerText = selected.size
 }
 recognition.onnomatch = (event) => {
   console.log(event)
