@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "account": "ethan.kwon",
+      "name": "권오현"
+    },
+    {
+      "id": 2,
+      "account": "tom.shin",
+      "name": "신규현"
+    },
+    {
+      "id": 3,
+      "account": "logan.lee",
+      "name": "이성범"
+    },
+    {
+      "id": 4,
+      "account": "mia.cho",
+      "name": "조효민"
+    },
+    {
+      "id": 5,
+      "account": "jay.park",
+      "name": "박준모"
+    }
+  ]
+}
